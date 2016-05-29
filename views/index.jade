@@ -1,5 +1,58 @@
-extends layout
+doctype html
+html(lang="en")
+  head
+    title Payment
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+  body
 
-block content
-  h1= title
-  p Welcome to #{title}
+  form.col-md-10
+    p Order
+    fieldset.form-group
+      div.form-row
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Price
+        div.col-sm-10
+          input(id="price", type="text", name="price").form-control
+
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Currency
+        div.col-sm-10
+           select(id="currency").form-control
+            each currency, i in currencies
+              option(value=i) #{currency}
+
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Full Name
+         div.col-sm-10
+           input(id="customerName", type="text", name="customerName").form-control
+
+    p Payment
+    fieldset.form-group
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Credit Card Holder Name
+       div.col-sm-10
+          input(id="creditCardHolderName", type="text", name="creditCardHolderName").form-control
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Credit Card Number
+       div.col-sm-10
+          input(id="creditCardNumber", type="text", name="creditCardNumber").form-control
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Credit Card Expiration
+       div.col-sm-10
+          input(id="creditCardExpiration", type="text", name="creditCardExpiration").form-control
+      div.form-row
+        label.col-sm-2.form-control-label
+          | CCV
+       div.col-sm-10
+          input(id="ccv", type="text", name="ccv").form-control
+      div.form-row
+      
+    fieldset.form-group
+      button(type="button").btn-primary Submit Order
