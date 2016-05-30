@@ -1,10 +1,14 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/', function(req, res, next) {
-  res.render(
+var currencies = require('../business/currencies');
+var creditCardTypes = require('../business/credit-card-types.js');
+
+router.get('/', function(request, response) {
+  response.render(
       'index', {
-          'currencies': ['USD', 'EUR', 'THB', 'HKD', 'SGD', 'AUD']
+          'currencies': currencies.list(),
+          'creditCardTypes': creditCardTypes.list()
       });
 });
 

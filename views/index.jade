@@ -4,10 +4,13 @@ html(lang="en")
     title Payment
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
-  body
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='/javascripts/payment-controller.js')
 
+  body
   form.col-md-10
     p Order
+
     fieldset.form-group
       div.form-row
       div.form-row
@@ -21,8 +24,8 @@ html(lang="en")
           | Currency
         div.col-sm-10
            select(id="currency").form-control
-            each currency, i in currencies
-              option(value=i) #{currency}
+            each currency in currencies
+              option(value=currency) #{currency}
 
       div.form-row
         label.col-sm-2.form-control-label
@@ -31,28 +34,40 @@ html(lang="en")
            input(id="customerName", type="text", name="customerName").form-control
 
     p Payment
+
     fieldset.form-group
       div.form-row
         label.col-sm-2.form-control-label
           | Credit Card Holder Name
        div.col-sm-10
           input(id="creditCardHolderName", type="text", name="creditCardHolderName").form-control
+
+      div.form-row
+        label.col-sm-2.form-control-label
+          | Credit Card Type
+        div.col-sm-10
+           select(id="creditCardType").form-control
+            each creditCardType in creditCardTypes
+              option(value=creditCardType) #{creditCardType}
+
       div.form-row
         label.col-sm-2.form-control-label
           | Credit Card Number
        div.col-sm-10
           input(id="creditCardNumber", type="text", name="creditCardNumber").form-control
+
       div.form-row
         label.col-sm-2.form-control-label
           | Credit Card Expiration
        div.col-sm-10
           input(id="creditCardExpiration", type="text", name="creditCardExpiration").form-control
+
       div.form-row
         label.col-sm-2.form-control-label
           | CCV
        div.col-sm-10
           input(id="ccv", type="text", name="ccv").form-control
-      div.form-row
-      
+
     fieldset.form-group
-      button(type="button").btn-primary Submit Order
+      div.form-row
+        button(id="submit-payment" type="button").btn-primary Submit Order
