@@ -41,7 +41,7 @@
 
     function createPayment(paymentInput) {
         $.post("/payments", paymentInput, function(result) {
-            showCreatePaymentResult(JSON.parse(result));
+            showCreatePaymentResult(result);
         });
     }
 
@@ -69,8 +69,9 @@
 
         function validatePrice() {
             if (!paymentInput.price ||
-                isNaN(parseInt(paymentInput.price, 10))) {
-                validationMessages.push("Please enter a price");
+                isNaN(parseInt(paymentInput.price, 10)) ||
+                !paymentInput.price.match(/^(\d*\.\d{1,2}|\d+)$/)) {
+                validationMessages.push("Please enter a valid price");
             }
         }
 
@@ -97,7 +98,9 @@
 
         function validateCreditCardExpiration() {
             if (!paymentInput.creditCardExpiration ||
-                paymentInput.creditCardExpiration.indexOf('/') === -1) {
+                paymentInput.creditCardExpiration.indexOf('/') === -1 ||
+                paymentInput.creditCardExpiration.length < 6 ||
+                paymentInput.creditCardExpiration.length > 7 ) {
                 validationMessages.push("Please enter a credit card expiration date in the format mm/yyyy");
             }
         }

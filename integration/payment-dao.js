@@ -14,7 +14,7 @@
             connection.query(
                 "INSERT INTO payment (price, currency, customer_name, credit_card_holder_name, " +
                     "credit_card_type, credit_card_number, credit_card_expiration, ccv, provider_result) VALUES " +
-                    "(" + payment.price + ", '" + payment.currency + "', '" + payment.customerName +
+                    "('" + payment.price + "', '" + payment.currency + "', '" + payment.customerName +
                     "', '" + payment.creditCardHolderName + "', '" + payment.creditCardType + "', '" +
                     payment.creditCardNumber + "', '" + payment.creditCardExpiration + "', " +
                     payment.ccv + ", '" + JSON.stringify(result) + "')",

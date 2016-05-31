@@ -5,39 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81806dbb-d636-4bb0-bc83-6953070c3c51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business/braintree-payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/braintree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/hq-payments.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/index-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ollie.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/payment-dao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/payments-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business/payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business/paypal-payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/paypal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-braintree-payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-braintree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-credit-card-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-payment-dao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-paypal-payments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-paypal.js" />
-      <change type="DELETED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\routes\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\routes\payments.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\unit\business.js" afterPath="$PROJECT_DIR$/test/test-currencies.js" />
-      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\views\index.jade" afterPath="$PROJECT_DIR$/views/payment.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/credit-card-types.js" afterPath="$PROJECT_DIR$/business/credit-card-types.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e2e-index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e2e-payments.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-braintree-payments.js" afterPath="$PROJECT_DIR$/test/unit-braintree-payments.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-braintree.js" afterPath="$PROJECT_DIR$/test/unit-braintree.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-credit-card-types.js" afterPath="$PROJECT_DIR$/test/unit-credit-card-types.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-currencies.js" afterPath="$PROJECT_DIR$/test/unit-currencies.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-payment-dao.js" afterPath="$PROJECT_DIR$/test/unit-payment-dao.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-payments.js" afterPath="$PROJECT_DIR$/test/unit-payments.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-paypal-payments.js" afterPath="$PROJECT_DIR$/test/unit-paypal-payments.js" />
+      <change type="MOVED" beforePath="C:\Users\ollie\Documents\eclipse\hq-payments\test\test-paypal.js" afterPath="$PROJECT_DIR$/test/unit-paypal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/payment-controller.js" afterPath="$PROJECT_DIR$/public/javascripts/payment-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/payment-dao.js" afterPath="$PROJECT_DIR$/integration/payment-dao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/payment.jade" afterPath="$PROJECT_DIR$/views/payment.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/payments-route.js" afterPath="$PROJECT_DIR$/routes/payments-route.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hq-payments.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464686013409" ignored="false" />
+    <file path="/Dummy.txt" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464686037188" ignored="false" />
     <file path="/.gitignore" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464534159548" ignored="false" />
     <file path="/index.jade" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464624024249" ignored="false" />
     <file path="/index.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464605938693" ignored="false" />
@@ -47,20 +34,23 @@
     <file path="/app.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464596519865" ignored="false" />
     <file path="/payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464684517109" ignored="false" />
     <file path="/paymentController.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464599060780" ignored="false" />
-    <file path="/payment-controller.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464654393300" ignored="false" />
+    <file path="/payment-controller.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464692998085" ignored="false" />
     <file path="/paypal-payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464627481669" ignored="false" />
     <file path="/braintree-payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464630256081" ignored="false" />
     <file path="/paypal.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464685581391" ignored="false" />
     <file path="/payment-dao.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464685629768" ignored="false" />
     <file path="/payments-route.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464619879989" ignored="false" />
     <file path="/braintree.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464685524795" ignored="false" />
-    <file path="/README.md" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464640835955" ignored="false" />
+    <file path="/README.md" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464694382026" ignored="false" />
     <file path="/test-payment-dao.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464681258687" ignored="false" />
     <file path="/test-braintree.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464682513413" ignored="false" />
     <file path="/test-paypal.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464683758745" ignored="false" />
     <file path="/test-braintree-payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464684733835" ignored="false" />
     <file path="/test-paypal-payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464685073781" ignored="false" />
     <file path="/config.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464685453914" ignored="false" />
+    <file path="/e2e-index.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464691620969" ignored="false" />
+    <file path="/e2e-payments.js" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464690233863" ignored="false" />
+    <file path="/payment.jade" changelist="81806dbb-d636-4bb0-bc83-6953070c3c51" time="1464693177024" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,55 +111,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-braintree-payments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-braintree-payments.js">
+      <file leaf-file-name="e2e-index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/e2e-index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="11" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paypal.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="e2e-payments.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/e2e-payments.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paypal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/integration/paypal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="24" selection-start="1714" selection-end="1735" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment-dao.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="payment-dao.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/integration/payment-dao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="11" selection-start="1386" selection-end="1386" vertical-scroll-proportion="1.0943396">
+            <state line="29" column="11" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="braintree.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integration/braintree.js">
+      <file leaf-file-name="unit-payments.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit-payments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="1112" selection-end="1131" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="35" selection-end="76" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/braintree/lib/braintree/environment.js">
+      <file leaf-file-name="payment-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/payment-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-payments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-payments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1315" selection-end="1373" vertical-scroll-proportion="0.0">
+            <state line="73" column="67" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,32 +168,32 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integration/config.js">
+      <file leaf-file-name="payment.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/payment.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+            <state line="23" column="20" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-paypal.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-paypal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-paypal-payments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-paypal-payments.js">
+      <file leaf-file-name="paypal-payments.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/paypal-payments.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -229,12 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/currencies.js" />
-        <option value="$PROJECT_DIR$/test/credit-card-types.js" />
-        <option value="$PROJECT_DIR$/test/payments.js" />
-        <option value="$PROJECT_DIR$/test/payment-dao.js" />
-        <option value="$PROJECT_DIR$/business/payments.js" />
-        <option value="$PROJECT_DIR$/test/test-braintree.js" />
         <option value="$PROJECT_DIR$/test/test-credit-card-types.js" />
         <option value="$PROJECT_DIR$/test/test-currencies.js" />
         <option value="$PROJECT_DIR$/test/test-payment-dao.js" />
@@ -243,8 +227,14 @@
         <option value="$PROJECT_DIR$/test/test-paypal-payments.js" />
         <option value="$PROJECT_DIR$/integration/config.js" />
         <option value="$PROJECT_DIR$/integration/braintree.js" />
-        <option value="$PROJECT_DIR$/integration/paypal.js" />
+        <option value="$PROJECT_DIR$/routes/payments-route.js" />
+        <option value="$PROJECT_DIR$/test/e2e-payments.js" />
+        <option value="$PROJECT_DIR$/test/e2e-index.js" />
         <option value="$PROJECT_DIR$/integration/payment-dao.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/payment-controller.js" />
+        <option value="$PROJECT_DIR$/views/payment.jade" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/integration/paypal.js" />
       </list>
     </option>
   </component>
@@ -306,14 +296,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\integration" />
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\test" />
+      <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\integration" />
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\sql" />
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\business" />
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\test\unit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\test" />
+      <recent name="C:\Users\ollie\Documents\eclipse\hq-payments" />
       <recent name="C:\Users\ollie\Documents\eclipse\hq-payments\business" />
     </key>
   </component>
@@ -434,7 +425,11 @@
       <created>1464600107045</created>
       <updated>1464600107045</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed first implementation&#10;completed unit tests">
+      <created>1464686044176</created>
+      <updated>1464686044176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -472,19 +467,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33002207" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18036287" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18036287" sideWeight="0.6699779" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -553,104 +548,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/business/braintree-payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-braintree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="7" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-credit-card-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-currencies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-payment-dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="7" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-paypal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1315" selection-end="1373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-braintree-payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-paypal-payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/braintree/lib/braintree/environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/braintree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="1112" selection-end="1131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/paypal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1714" selection-end="1735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="8" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
@@ -658,9 +555,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit-braintree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/payments-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/payments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="70" selection-start="1073" selection-end="1124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/paypal-payments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/e2e-payments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit-payments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/e2e-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/integration/payment-dao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="1386" selection-end="1386" vertical-scroll-proportion="1.0943396">
+        <state line="29" column="11" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/payment-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="67" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/payment.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/paypal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.075">
           <folding />
         </state>
       </provider>
