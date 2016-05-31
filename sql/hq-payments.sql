@@ -8,7 +8,7 @@ USE `hq-payments`;
 
 CREATE TABLE IF NOT EXISTS `payment` (
   `ID` bigint(20) NOT NULL AUTO_INCREMENT,
-  `PRICE` int(15) NOT NULL,
+  `PRICE` varchar(50) NOT NULL,
   `CURRENCY` varchar(10) NOT NULL,
   `CUSTOMER_NAME` varchar(200) NOT NULL,
   `CREDIT_CARD_HOLDER_NAME` varchar(200) NOT NULL,
