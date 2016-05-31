@@ -5,7 +5,7 @@
      * @returns {string[]} all supported credit card types
      */
     function list() {
-        return ['American Express', 'VISA', 'Maestro'];
+        return ['American Express', 'VISA', 'Mastercard'];
     }
 
     module.exports = {

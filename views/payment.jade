@@ -31,7 +31,7 @@ html(lang="en")
         label.col-sm-2.form-control-label
           | Full Name
          div.col-sm-10
-           input(id="customerName", type="text", name="customerName").form-control
+           input(id="customerName", type="text", name="customerName", title="first and last name").form-control
 
     p Payment
 
@@ -40,7 +40,7 @@ html(lang="en")
         label.col-sm-2.form-control-label
           | Credit Card Holder Name
        div.col-sm-10
-          input(id="creditCardHolderName", type="text", name="creditCardHolderName").form-control
+          input(id="creditCardHolderName", type="text", name="creditCardHolderName", title="first and last name").form-control
 
       div.form-row
         label.col-sm-2.form-control-label
@@ -60,7 +60,7 @@ html(lang="en")
         label.col-sm-2.form-control-label
           | Credit Card Expiration
        div.col-sm-10
-          input(id="creditCardExpiration", type="text", name="creditCardExpiration").form-control
+          input(id="creditCardExpiration", type="text", name="creditCardExpiration", title="format: mm/yyyy").form-control
 
       div.form-row
         label.col-sm-2.form-control-label
@@ -70,4 +70,7 @@ html(lang="en")
 
     fieldset.form-group
       div.form-row
-        button(id="submit-payment" type="button").btn-primary Submit Order
+        button(id="submit-payment" type="button").btn-primary Submit Payment
+
+    fieldset.form-group
+      ul(id="validationMessages")

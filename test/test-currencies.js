@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 
 describe('currencies', function () {
-    var currencies = require('../../business/currencies');
+    var currencies = require('../business/currencies');
 
     it('provides required currencies', function() {
         var currencyList = currencies.list();
@@ -11,5 +11,5 @@ describe('currencies', function () {
         expect(currencyList.indexOf("HKD")).to.not.equal(-1);
         expect(currencyList.indexOf("SGD")).to.not.equal(-1);
         expect(currencyList.indexOf("AUD")).to.not.equal(-1);
-    })
+    });
 });
